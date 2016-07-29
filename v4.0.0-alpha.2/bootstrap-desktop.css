@@ -264,6 +264,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -281,11 +282,13 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+  margin-bottom: 8px;
   margin-bottom: .5rem;
 }
 
 p {
   margin-top: 0;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
@@ -296,6 +299,7 @@ abbr[data-original-title] {
 }
 
 address {
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
@@ -305,6 +309,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
@@ -320,11 +325,13 @@ dt {
 }
 
 dd {
+  margin-bottom: 8px;
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
 blockquote {
+  margin: 0 0 16px;
   margin: 0 0 1rem;
 }
 
@@ -347,10 +354,12 @@ a:focus {
 
 pre {
   margin-top: 0;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
 figure {
+  margin: 0 0 16px;
   margin: 0 0 1rem;
 }
 
@@ -380,7 +389,9 @@ table {
 }
 
 caption {
+  padding-top: 12px;
   padding-top: .75rem;
+  padding-bottom: 12px;
   padding-bottom: .75rem;
   color: #818a91;
   text-align: left;
@@ -393,6 +404,7 @@ th {
 
 label {
   display: inline-block;
+  margin-bottom: 8px;
   margin-bottom: .5rem;
 }
 
@@ -425,7 +437,9 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
+  margin-bottom: 8px;
   margin-bottom: .5rem;
+  font-size: 24px;
   font-size: 1.5rem;
   line-height: inherit;
 }
@@ -456,6 +470,7 @@ h6,
 .h4,
 .h5,
 .h6 {
+  margin-bottom: 8px;
   margin-bottom: .5rem;
   font-family: inherit;
   font-weight: 500;
@@ -464,80 +479,99 @@ h6,
 }
 
 h1 {
+  font-size: 40px;
   font-size: 2.5rem;
 }
 
 h2 {
+  font-size: 32px;
   font-size: 2rem;
 }
 
 h3 {
+  font-size: 28px;
   font-size: 1.75rem;
 }
 
 h4 {
+  font-size: 24px;
   font-size: 1.5rem;
 }
 
 h5 {
+  font-size: 20px;
   font-size: 1.25rem;
 }
 
 h6 {
+  font-size: 16px;
   font-size: 1rem;
 }
 
 .h1 {
+  font-size: 40px;
   font-size: 2.5rem;
 }
 
 .h2 {
+  font-size: 32px;
   font-size: 2rem;
 }
 
 .h3 {
+  font-size: 28px;
   font-size: 1.75rem;
 }
 
 .h4 {
+  font-size: 24px;
   font-size: 1.5rem;
 }
 
 .h5 {
+  font-size: 20px;
   font-size: 1.25rem;
 }
 
 .h6 {
+  font-size: 16px;
   font-size: 1rem;
 }
 
 .lead {
+  font-size: 20px;
   font-size: 1.25rem;
   font-weight: 300;
 }
 
 .display-1 {
+  font-size: 96px;
   font-size: 6rem;
   font-weight: 300;
 }
 
 .display-2 {
+  font-size: 88px;
   font-size: 5.5rem;
   font-weight: 300;
 }
 
 .display-3 {
+  font-size: 72px;
   font-size: 4.5rem;
   font-weight: 300;
 }
 
 .display-4 {
+  font-size: 56px;
   font-size: 3.5rem;
   font-weight: 300;
 }
 
 hr {
+  margin-top: 16px;
   margin-top: 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, .1);
@@ -574,7 +608,9 @@ mark,
 }
 
 .dl-horizontal {
+  margin-right: -30px;
   margin-right: -1.875rem;
+  margin-left: -30px;
   margin-left: -1.875rem;
 }
 
@@ -590,9 +626,13 @@ mark,
 }
 
 .blockquote {
+  padding: 8px 16px;
   padding: .5rem 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
+  font-size: 20px;
   font-size: 1.25rem;
+  border-left: 4px solid #eceeef;
   border-left: .25rem solid #eceeef;
 }
 
@@ -608,9 +648,11 @@ mark,
 }
 
 .blockquote-reverse {
+  padding-right: 16px;
   padding-right: 1rem;
   padding-left: 0;
   text-align: right;
+  border-right: 4px solid #eceeef;
   border-right: .25rem solid #eceeef;
   border-left: 0;
 }
@@ -639,6 +681,7 @@ mark,
   display: inline-block;
   max-width: 100%;
   height: auto;
+  padding: 4px;
   padding: .25rem;
   line-height: 1.5;
   background-color: #fff;
@@ -658,6 +701,7 @@ mark,
 }
 
 .figure-img {
+  margin-bottom: 8px;
   margin-bottom: .5rem;
   line-height: 1;
 }
@@ -675,6 +719,7 @@ samp {
 }
 
 code {
+  padding: 3.2px 6.4px;
   padding: .2rem .4rem;
   font-size: 90%;
   color: #bd4147;
@@ -683,6 +728,7 @@ code {
 }
 
 kbd {
+  padding: 3.2px 6.4px;
   padding: .2rem .4rem;
   font-size: 90%;
   color: #fff;
@@ -699,6 +745,7 @@ kbd kbd {
 pre {
   display: block;
   margin-top: 0;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   font-size: 90%;
   line-height: 1.5;
@@ -719,7 +766,9 @@ pre code {
 }
 
 .container {
+  padding-right: 15px;
   padding-right: .9375rem;
+  padding-left: 15px;
   padding-left: .9375rem;
   margin-right: auto;
   margin-left: auto;
@@ -744,7 +793,9 @@ pre code {
 }
 
 .container-fluid {
+  padding-right: 15px;
   padding-right: .9375rem;
+  padding-left: 15px;
   padding-left: .9375rem;
   margin-right: auto;
   margin-left: auto;
@@ -757,7 +808,9 @@ pre code {
 }
 
 .row {
+  margin-right: -15px;
   margin-right: -.9375rem;
+  margin-left: -15px;
   margin-left: -.9375rem;
 }
 
@@ -829,7 +882,9 @@ pre code {
 .col-xl-12 {
   position: relative;
   min-height: 1px;
+  padding-right: 15px;
   padding-right: .9375rem;
+  padding-left: 15px;
   padding-left: .9375rem;
 }
 
@@ -1712,11 +1767,13 @@ pre code {
 .table {
   width: 100%;
   max-width: 100%;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
 .table th,
 .table td {
+  padding: 12px;
   padding: .75rem;
   line-height: 1.5;
   vertical-align: top;
@@ -1738,6 +1795,7 @@ pre code {
 
 .table-sm th,
 .table-sm td {
+  padding: 4.8px;
   padding: .3rem;
 }
 
@@ -1912,7 +1970,9 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
+  padding: 6px 12px;
   padding: .375rem .75rem;
+  font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
   color: #55595c;
@@ -1968,13 +2028,17 @@ pre code {
 }
 
 .form-control-label {
+  padding: 6px 12px;
   padding: .375rem .75rem;
   margin-bottom: 0;
 }
 
 .form-control-static {
+  min-height: 36px;
   min-height: 2.25rem;
+  padding-top: 6px;
   padding-top: .375rem;
+  padding-bottom: 6px;
   padding-bottom: .375rem;
   margin-bottom: 0;
 }
@@ -1995,7 +2059,9 @@ pre code {
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
+  padding: 4.4px 12px;
   padding: .275rem .75rem;
+  font-size: 14px;
   font-size: .875rem;
   line-height: 1.5;
   border-radius: .2rem;
@@ -2005,13 +2071,16 @@ pre code {
 .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
+  padding: 12px 20px;
   padding: .75rem 1.25rem;
+  font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.333333;
   border-radius: .3rem;
 }
 
 .form-group {
+  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
@@ -2019,11 +2088,13 @@ pre code {
 .checkbox {
   position: relative;
   display: block;
+  margin-bottom: 12px;
   margin-bottom: .75rem;
 }
 
 .radio label,
 .checkbox label {
+  padding-left: 20px;
   padding-left: 1.25rem;
   margin-bottom: 0;
   font-weight: normal;
@@ -2040,12 +2111,15 @@ pre code {
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
+  margin-top: 4px;
   margin-top: .25rem;
+  margin-left: -20px;
   margin-left: -1.25rem;
 }
 
 .radio + .radio,
 .checkbox + .checkbox {
+  margin-top: -4px;
   margin-top: -.25rem;
 }
 
@@ -2053,6 +2127,7 @@ pre code {
 .checkbox-inline {
   position: relative;
   display: inline-block;
+  padding-left: 20px;
   padding-left: 1.25rem;
   margin-bottom: 0;
   font-weight: normal;
@@ -2063,6 +2138,7 @@ pre code {
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
+  margin-left: 12px;
   margin-left: .75rem;
 }
 
@@ -2086,8 +2162,10 @@ input[type="checkbox"].disabled {
 .form-control-success,
 .form-control-warning,
 .form-control-danger {
+  padding-right: 36px;
   padding-right: 2.25rem;
   background-repeat: no-repeat;
+  background-position: center right 9px;
   background-position: center right .5625rem;
   -webkit-background-size: 1.4625rem 1.4625rem;
   background-size: 1.4625rem 1.4625rem;
@@ -2247,7 +2325,9 @@ input[type="checkbox"].disabled {
 
 .btn {
   display: inline-block;
+  padding: 6px 16px;
   padding: .375rem 1rem;
+  font-size: 16px;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -2884,7 +2964,9 @@ fieldset[disabled] a.btn {
 
 .btn-lg,
 .btn-group-lg > .btn {
+  padding: 12px 20px;
   padding: .75rem 1.25rem;
+  font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.333333;
   border-radius: .3rem;
@@ -2892,7 +2974,9 @@ fieldset[disabled] a.btn {
 
 .btn-sm,
 .btn-group-sm > .btn {
+  padding: 4px 12px;
   padding: .25rem .75rem;
+  font-size: 14px;
   font-size: .875rem;
   line-height: 1.5;
   border-radius: .2rem;
@@ -2956,7 +3040,9 @@ input[type="button"].btn-block {
   display: inline-block;
   width: 0;
   height: 0;
+  margin-right: 4px;
   margin-right: .25rem;
+  margin-left: 4px;
   margin-left: .25rem;
   vertical-align: middle;
   content: "";
@@ -2984,6 +3070,7 @@ input[type="button"].btn-block {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
+  font-size: 16px;
   font-size: 1rem;
   color: #373a3c;
   text-align: left;
@@ -2997,6 +3084,7 @@ input[type="button"].btn-block {
 
 .dropdown-divider {
   height: 1px;
+  margin: 8px 0;
   margin: .5rem 0;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -3068,6 +3156,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
+  font-size: 14px;
   font-size: .875rem;
   line-height: 1.5;
   color: #818a91;
@@ -3258,6 +3347,7 @@ input[type="button"].btn-block {
 }
 
 .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
   border-top-right-radius: .25rem;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -3266,6 +3356,7 @@ input[type="button"].btn-block {
 .btn-group-vertical > .btn:last-child:not(:first-child) {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
   border-bottom-left-radius: .25rem;
 }
 
@@ -3333,7 +3424,9 @@ input[type="button"].btn-block {
 }
 
 .input-group-addon {
+  padding: 6px 12px;
   padding: .375rem .75rem;
+  font-size: 16px;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
@@ -3347,7 +3440,9 @@ input[type="button"].btn-block {
 .input-group-addon.form-control-sm,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .input-group-addon.btn {
+  padding: 4.4px 12px;
   padding: .275rem .75rem;
+  font-size: 14px;
   font-size: .875rem;
   border-radius: .2rem;
 }
@@ -3355,7 +3450,9 @@ input[type="button"].btn-block {
 .input-group-addon.form-control-lg,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
+  padding: 12px 20px;
   padding: .75rem 1.25rem;
+  font-size: 20px;
   font-size: 1.25rem;
   border-radius: .3rem;
 }
@@ -3438,6 +3535,7 @@ input[type="button"].btn-block {
 .c-input {
   position: relative;
   display: inline;
+  padding-left: 24px;
   padding-left: 1.5rem;
   color: #555;
   cursor: pointer;
@@ -3465,6 +3563,7 @@ input[type="button"].btn-block {
 }
 
 .c-input + .c-input {
+  margin-left: 16px;
   margin-left: 1rem;
 }
 
@@ -3473,9 +3572,12 @@ input[type="button"].btn-block {
   top: 0;
   left: 0;
   display: block;
+  width: 16px;
   width: 1rem;
+  height: 16px;
   height: 1rem;
   font-size: 65%;
+  line-height: 16px;
   line-height: 1rem;
   color: #eee;
   text-align: center;
@@ -3517,6 +3619,7 @@ input[type="button"].btn-block {
 
 .c-inputs-stacked .c-input::after {
   display: block;
+  margin-bottom: 4px;
   margin-bottom: .25rem;
   content: "";
 }
@@ -3529,10 +3632,13 @@ input[type="button"].btn-block {
   display: inline-block;
   max-width: 100%;
   -webkit-appearance: none;
+  padding: 6px 28px 6px 12px;
   padding: .375rem 1.75rem .375rem .75rem;
+  padding-right: 12px \9;
   padding-right: .75rem \9;
   color: #55595c;
   vertical-align: middle;
+  background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) no-repeat right 12px center;
   background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAMAAACzvE1FAAAADFBMVEUzMzMzMzMzMzMzMzMKAG/3AAAAA3RSTlMAf4C/aSLHAAAAPElEQVR42q3NMQ4AIAgEQTn//2cLdRKppSGzBYwzVXvznNWs8C58CiussPJj8h6NwgorrKRdTvuV9v16Afn0AYFOB7aYAAAAAElFTkSuQmCC) no-repeat right .75rem center;
   background-image: none \9;
   -webkit-background-size: 8px 10px;
@@ -3564,11 +3670,13 @@ input[type="button"].btn-block {
 .file {
   position: relative;
   display: inline-block;
+  height: 40px;
   height: 2.5rem;
   cursor: pointer;
 }
 
 .file input {
+  min-width: 224px;
   min-width: 14rem;
   margin: 0;
   filter: alpha(opacity=0);
@@ -3581,7 +3689,9 @@ input[type="button"].btn-block {
   right: 0;
   left: 0;
   z-index: 5;
+  height: 40px;
   height: 2.5rem;
+  padding: 8px 16px;
   padding: .5rem 1rem;
   line-height: 1.5;
   color: #555;
@@ -3600,12 +3710,17 @@ input[type="button"].btn-block {
 
 .file-custom::before {
   position: absolute;
+  top: -1.2px;
   top: -.075rem;
+  right: -1.2px;
   right: -.075rem;
+  bottom: -1.2px;
   bottom: -.075rem;
   z-index: 6;
   display: block;
+  height: 40px;
   height: 2.5rem;
+  padding: 8px 16px;
   padding: .5rem 1rem;
   line-height: 1.5;
   color: #555;
@@ -3648,6 +3763,7 @@ input[type="button"].btn-block {
 
 .nav-inline .nav-item + .nav-item,
 .nav-inline .nav-link + .nav-link {
+  margin-left: 16px;
   margin-left: 1rem;
 }
 
@@ -3667,6 +3783,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-item + .nav-item {
+  margin-left: 3.2px;
   margin-left: .2rem;
 }
 
@@ -3712,6 +3829,7 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-item + .nav-item {
+  margin-left: 3.2px;
   margin-left: .2rem;
 }
 
@@ -3738,6 +3856,7 @@ input[type="button"].btn-block {
 }
 
 .nav-stacked .nav-item + .nav-item {
+  margin-top: 3.2px;
   margin-top: .2rem;
   margin-left: 0;
 }
@@ -3758,6 +3877,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
+  padding: 8px 16px;
   padding: .5rem 1rem;
 }
 
@@ -3814,9 +3934,13 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   float: left;
+  padding-top: 4px;
   padding-top: .25rem;
+  padding-bottom: 4px;
   padding-bottom: .25rem;
+  margin-right: 16px;
   margin-right: 1rem;
+  font-size: 20px;
   font-size: 1.25rem;
 }
 
@@ -3832,9 +3956,13 @@ input[type="button"].btn-block {
 .navbar-divider {
   float: left;
   width: 1px;
+  padding-top: 6.8px;
   padding-top: .425rem;
+  padding-bottom: 6.8px;
   padding-bottom: .425rem;
+  margin-right: 16px;
   margin-right: 1rem;
+  margin-left: 16px;
   margin-left: 1rem;
   overflow: hidden;
 }
@@ -3844,7 +3972,9 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
+  padding: 8px 12px;
   padding: .5rem .75rem;
+  font-size: 20px;
   font-size: 1.25rem;
   line-height: 1;
   background: none;
@@ -3875,15 +4005,19 @@ input[type="button"].btn-block {
 
 .navbar-nav .nav-link {
   display: block;
+  padding-top: 6.8px;
   padding-top: .425rem;
+  padding-bottom: 6.8px;
   padding-bottom: .425rem;
 }
 
 .navbar-nav .nav-link + .nav-link {
+  margin-left: 16px;
   margin-left: 1rem;
 }
 
 .navbar-nav .nav-item + .nav-item {
+  margin-left: 16px;
   margin-left: 1rem;
 }
 
@@ -3964,6 +4098,7 @@ input[type="button"].btn-block {
 .card {
   position: relative;
   display: block;
+  margin-bottom: 12px;
   margin-bottom: .75rem;
   background-color: #fff;
   border: 1px solid #e5e5e5;
@@ -3971,14 +4106,17 @@ input[type="button"].btn-block {
 }
 
 .card-block {
+  padding: 20px;
   padding: 1.25rem;
 }
 
 .card-title {
+  margin-bottom: 12px;
   margin-bottom: .75rem;
 }
 
 .card-subtitle {
+  margin-top: -6px;
   margin-top: -.375rem;
   margin-bottom: 0;
 }
@@ -3992,6 +4130,7 @@ input[type="button"].btn-block {
 }
 
 .card-link + .card-link {
+  margin-left: 20px;
   margin-left: 1.25rem;
 }
 
@@ -4004,6 +4143,7 @@ input[type="button"].btn-block {
 }
 
 .card-header {
+  padding: 12px 20px;
   padding: .75rem 1.25rem;
   background-color: #f5f5f5;
   border-bottom: 1px solid #e5e5e5;
@@ -4014,6 +4154,7 @@ input[type="button"].btn-block {
 }
 
 .card-footer {
+  padding: 12px 20px;
   padding: .75rem 1.25rem;
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
@@ -4117,6 +4258,7 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 20px;
   padding: 1.25rem;
 }
 
@@ -4131,6 +4273,7 @@ input[type="button"].btn-block {
 .card-deck {
   display: table;
   table-layout: fixed;
+  border-spacing: 20px 0;
   border-spacing: 1.25rem 0;
 }
 
@@ -4141,7 +4284,9 @@ input[type="button"].btn-block {
 }
 
 .card-deck-wrapper {
+  margin-right: -20px;
   margin-right: -1.25rem;
+  margin-left: -20px;
   margin-left: -1.25rem;
 }
 
@@ -4211,7 +4356,9 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb {
+  padding: 12px 16px;
   padding: .75rem 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   list-style: none;
   background-color: #eceeef;
@@ -4229,7 +4376,9 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb > li + li::before {
+  padding-right: 8px;
   padding-right: .5rem;
+  padding-left: 8px;
   padding-left: .5rem;
   color: #818a91;
   content: "/";
@@ -4242,7 +4391,9 @@ input[type="button"].btn-block {
 .pagination {
   display: inline-block;
   padding-left: 0;
+  margin-top: 16px;
   margin-top: 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   border-radius: .25rem;
 }
@@ -4253,12 +4404,16 @@ input[type="button"].btn-block {
 
 .page-item:first-child .page-link {
   margin-left: 0;
+  border-top-left-radius: 4px;
   border-top-left-radius: .25rem;
+  border-bottom-left-radius: 4px;
   border-bottom-left-radius: .25rem;
 }
 
 .page-item:last-child .page-link {
+  border-top-right-radius: 4px;
   border-top-right-radius: .25rem;
+  border-bottom-right-radius: 4px;
   border-bottom-right-radius: .25rem;
 }
 
@@ -4284,6 +4439,7 @@ input[type="button"].btn-block {
 .page-link {
   position: relative;
   float: left;
+  padding: 8px 12px;
   padding: .5rem .75rem;
   margin-left: -1px;
   line-height: 1.5;
@@ -4301,40 +4457,54 @@ input[type="button"].btn-block {
 }
 
 .pagination-lg .page-link {
+  padding: 12px 24px;
   padding: .75rem 1.5rem;
+  font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.333333;
 }
 
 .pagination-lg .page-item:first-child .page-link {
+  border-top-left-radius: 4.8px;
   border-top-left-radius: .3rem;
+  border-bottom-left-radius: 4.8px;
   border-bottom-left-radius: .3rem;
 }
 
 .pagination-lg .page-item:last-child .page-link {
+  border-top-right-radius: 4.8px;
   border-top-right-radius: .3rem;
+  border-bottom-right-radius: 4.8px;
   border-bottom-right-radius: .3rem;
 }
 
 .pagination-sm .page-link {
+  padding: 4.4px 12px;
   padding: .275rem .75rem;
+  font-size: 14px;
   font-size: .875rem;
   line-height: 1.5;
 }
 
 .pagination-sm .page-item:first-child .page-link {
+  border-top-left-radius: 3.2px;
   border-top-left-radius: .2rem;
+  border-bottom-left-radius: 3.2px;
   border-bottom-left-radius: .2rem;
 }
 
 .pagination-sm .page-item:last-child .page-link {
+  border-top-right-radius: 3.2px;
   border-top-right-radius: .2rem;
+  border-bottom-right-radius: 3.2px;
   border-bottom-right-radius: .2rem;
 }
 
 .pager {
   padding-left: 0;
+  margin-top: 16px;
   margin-top: 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   text-align: center;
   list-style: none;
@@ -4479,13 +4649,16 @@ a.label:hover {
 }
 
 .jumbotron {
+  padding: 32px 16px;
   padding: 2rem 1rem;
+  margin-bottom: 32px;
   margin-bottom: 2rem;
   background-color: #eceeef;
   border-radius: .3rem;
 }
 
 .jumbotron {
+  padding: 64px 32px;
   padding: 4rem 2rem;
 }
 
@@ -4501,6 +4674,7 @@ a.label:hover {
 
 .alert {
   padding: 15px;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: .25rem;
@@ -4623,7 +4797,9 @@ a.label:hover {
 .progress {
   display: block;
   width: 100%;
+  height: 16px;
   height: 1rem;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
@@ -4646,12 +4822,16 @@ a.label:hover {
 
 .progress[value]::-webkit-progress-value {
   background-color: #0074d9;
+  border-top-left-radius: 4px;
   border-top-left-radius: .25rem;
+  border-bottom-left-radius: 4px;
   border-bottom-left-radius: .25rem;
 }
 
 .progress[value="100"]::-webkit-progress-value {
+  border-top-right-radius: 4px;
   border-top-right-radius: .25rem;
+  border-bottom-right-radius: 4px;
   border-bottom-right-radius: .25rem;
 }
 
@@ -4662,14 +4842,19 @@ a.label:hover {
 
 .progress-bar {
   display: inline-block;
+  height: 16px;
   height: 1rem;
+  text-indent: -15984px;
   text-indent: -999rem;
   background-color: #0074d9;
+  border-top-left-radius: 4px;
   border-top-left-radius: .25rem;
+  border-bottom-left-radius: 4px;
   border-bottom-left-radius: .25rem;
 }
 
 .progress[width^="0"] {
+  min-width: 32px;
   min-width: 2rem;
   color: #818a91;
   background-color: transparent;
@@ -4677,7 +4862,9 @@ a.label:hover {
 }
 
 .progress[width="100%"] {
+  border-top-right-radius: 4px;
   border-top-right-radius: .25rem;
+  border-bottom-right-radius: 4px;
   border-bottom-right-radius: .25rem;
 }
 
@@ -4831,6 +5018,7 @@ a.label:hover {
 .list-group-item {
   position: relative;
   display: block;
+  padding: 12px 20px;
   padding: .75rem 1.25rem;
   margin-bottom: -1px;
   background-color: #fff;
@@ -4838,13 +5026,17 @@ a.label:hover {
 }
 
 .list-group-item:first-child {
+  border-top-left-radius: 4px;
   border-top-left-radius: .25rem;
+  border-top-right-radius: 4px;
   border-top-right-radius: .25rem;
 }
 
 .list-group-item:last-child {
   margin-bottom: 0;
+  border-bottom-right-radius: 4px;
   border-bottom-right-radius: .25rem;
+  border-bottom-left-radius: 4px;
   border-bottom-left-radius: .25rem;
 }
 
@@ -5115,6 +5307,7 @@ button.list-group-item-danger.active:hover {
 
 .close {
   float: right;
+  font-size: 24px;
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1;
@@ -5290,6 +5483,7 @@ button.close {
   z-index: 1070;
   display: block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
@@ -5398,6 +5592,7 @@ button.close {
   max-width: 276px;
   padding: 1px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   font-size: .875rem;
   font-style: normal;
   font-weight: normal;
@@ -5515,6 +5710,7 @@ button.close {
 .popover-title {
   padding: 8px 14px;
   margin: 0;
+  font-size: 16px;
   font-size: 1rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
@@ -6074,92 +6270,119 @@ a.bg-danger:hover {
 }
 
 .m-a-1 {
+  margin: 16px 16px !important;
   margin: 1rem 1rem !important;
 }
 
 .m-t-1 {
+  margin-top: 16px !important;
   margin-top: 1rem !important;
 }
 
 .m-r-1 {
+  margin-right: 16px !important;
   margin-right: 1rem !important;
 }
 
 .m-b-1 {
+  margin-bottom: 16px !important;
   margin-bottom: 1rem !important;
 }
 
 .m-l-1 {
+  margin-left: 16px !important;
   margin-left: 1rem !important;
 }
 
 .m-x-1 {
+  margin-right: 16px !important;
   margin-right: 1rem !important;
+  margin-left: 16px !important;
   margin-left: 1rem !important;
 }
 
 .m-y-1 {
+  margin-top: 16px !important;
   margin-top: 1rem !important;
+  margin-bottom: 16px !important;
   margin-bottom: 1rem !important;
 }
 
 .m-a-2 {
+  margin: 24px 24px !important;
   margin: 1.5rem 1.5rem !important;
 }
 
 .m-t-2 {
+  margin-top: 24px !important;
   margin-top: 1.5rem !important;
 }
 
 .m-r-2 {
+  margin-right: 24px !important;
   margin-right: 1.5rem !important;
 }
 
 .m-b-2 {
+  margin-bottom: 24px !important;
   margin-bottom: 1.5rem !important;
 }
 
 .m-l-2 {
+  margin-left: 24px !important;
   margin-left: 1.5rem !important;
 }
 
 .m-x-2 {
+  margin-right: 24px !important;
   margin-right: 1.5rem !important;
+  margin-left: 24px !important;
   margin-left: 1.5rem !important;
 }
 
 .m-y-2 {
+  margin-top: 24px !important;
   margin-top: 1.5rem !important;
+  margin-bottom: 24px !important;
   margin-bottom: 1.5rem !important;
 }
 
 .m-a-3 {
+  margin: 48px 48px !important;
   margin: 3rem 3rem !important;
 }
 
 .m-t-3 {
+  margin-top: 48px !important;
   margin-top: 3rem !important;
 }
 
 .m-r-3 {
+  margin-right: 48px !important;
   margin-right: 3rem !important;
 }
 
 .m-b-3 {
+  margin-bottom: 48px !important;
   margin-bottom: 3rem !important;
 }
 
 .m-l-3 {
+  margin-left: 48px !important;
   margin-left: 3rem !important;
 }
 
 .m-x-3 {
+  margin-right: 48px !important;
   margin-right: 3rem !important;
+  margin-left: 48px !important;
   margin-left: 3rem !important;
 }
 
 .m-y-3 {
+  margin-top: 48px !important;
   margin-top: 3rem !important;
+  margin-bottom: 48px !important;
   margin-bottom: 3rem !important;
 }
 
@@ -6194,92 +6417,119 @@ a.bg-danger:hover {
 }
 
 .p-a-1 {
+  padding: 16px 16px !important;
   padding: 1rem 1rem !important;
 }
 
 .p-t-1 {
+  padding-top: 16px !important;
   padding-top: 1rem !important;
 }
 
 .p-r-1 {
+  padding-right: 16px !important;
   padding-right: 1rem !important;
 }
 
 .p-b-1 {
+  padding-bottom: 16px !important;
   padding-bottom: 1rem !important;
 }
 
 .p-l-1 {
+  padding-left: 16px !important;
   padding-left: 1rem !important;
 }
 
 .p-x-1 {
+  padding-right: 16px !important;
   padding-right: 1rem !important;
+  padding-left: 16px !important;
   padding-left: 1rem !important;
 }
 
 .p-y-1 {
+  padding-top: 16px !important;
   padding-top: 1rem !important;
+  padding-bottom: 16px !important;
   padding-bottom: 1rem !important;
 }
 
 .p-a-2 {
+  padding: 24px 24px !important;
   padding: 1.5rem 1.5rem !important;
 }
 
 .p-t-2 {
+  padding-top: 24px !important;
   padding-top: 1.5rem !important;
 }
 
 .p-r-2 {
+  padding-right: 24px !important;
   padding-right: 1.5rem !important;
 }
 
 .p-b-2 {
+  padding-bottom: 24px !important;
   padding-bottom: 1.5rem !important;
 }
 
 .p-l-2 {
+  padding-left: 24px !important;
   padding-left: 1.5rem !important;
 }
 
 .p-x-2 {
+  padding-right: 24px !important;
   padding-right: 1.5rem !important;
+  padding-left: 24px !important;
   padding-left: 1.5rem !important;
 }
 
 .p-y-2 {
+  padding-top: 24px !important;
   padding-top: 1.5rem !important;
+  padding-bottom: 24px !important;
   padding-bottom: 1.5rem !important;
 }
 
 .p-a-3 {
+  padding: 48px 48px !important;
   padding: 3rem 3rem !important;
 }
 
 .p-t-3 {
+  padding-top: 48px !important;
   padding-top: 3rem !important;
 }
 
 .p-r-3 {
+  padding-right: 48px !important;
   padding-right: 3rem !important;
 }
 
 .p-b-3 {
+  padding-bottom: 48px !important;
   padding-bottom: 3rem !important;
 }
 
 .p-l-3 {
+  padding-left: 48px !important;
   padding-left: 3rem !important;
 }
 
 .p-x-3 {
+  padding-right: 48px !important;
   padding-right: 3rem !important;
+  padding-left: 48px !important;
   padding-left: 3rem !important;
 }
 
 .p-y-3 {
+  padding-top: 48px !important;
   padding-top: 3rem !important;
+  padding-bottom: 48px !important;
   padding-bottom: 3rem !important;
 }
 
@@ -6326,5 +6576,3 @@ a.bg-danger:hover {
 .visible-print-inline-block {
   display: none !important;
 }
-
-/*# sourceMappingURL=bootstrap.css.map */
